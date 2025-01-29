@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.head1{
+    color:orange;
+}
+a{
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: orange;
+}
+ img{
+    /* height: 100%; */
+    width: 100%;
+    object-fit: cover;
+ }
+
+  .image2{ 
+        height: 450px;
+        width: 85%;
+        background-color:rgb(255, 255, 255);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 100px;
+        margin: auto;
+        transform: translateY(-100px); 
+        box-shadow: 5px 5px 20px gray; 
+ }
+ 
+ .box1 h2 {
+    color:orange;
+    font-size: 40px;
+    
+ }
+ .box1 span {
+    color: rgb(13, 13, 94);
+    font-weight: 700;
+    font-size: 40px;
+ }
+ #image3{
+    height: 350px;
+    width: 350px;
+    box-shadow: 3px 3px 50px grey;
+    
+    object-fit: cover;
+ }
+ button{
+    width: 200px;
+    height: 50px;
+    margin-top: 60px;
+    background-color: rgb(18, 18, 92);
+    color: white;
+    font-size: 20px;
+    border-radius: 50px;
+ }
+ button:hover {
+background-color: orange;
+border: none;
+
+ }
+ .head2 {
+    
+    
+    padding-left:100px ;
+    color:rgb(66, 60, 60);
+ }
+.head2 span{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+.image4{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 20px;
+   padding: 0px 80px;
+   margin-top: 20px;
+    
+}
+
+
+.image4 img{
+    height: 350px;
+   object-fit: cover; 
+}
+.image4 div:hover  {
+   background-color: white;
+    box-shadow: 1px 1px 10px gray;
+}
+#button2{
+    width: 300px;
+    height: 65px;
+    margin: 40px 40%;
+    font-size: 20px;    
+    
+}
+.head2:hover{
+    color: orange;
+}
+
+
+.head2{
+    font-size: 30px ;
+    color: cadetblue;
+    padding: 20px;
+}
+.rr{
+    padding: 20px 50px;
+    margin-left: 0px;
+    font-size: 20px;
+}
+
+.image5:hover  {
+border: 2px solid orange;
+
+}
+.image6{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    margin-top: 50px;
+    padding: 0px 70px;
+}
+
+.head3{
+    color: cadetblue;
+    padding: 10px;
+}
+.image6 div:hover {
+    background-color: white;
+    box-shadow: 1px 1px 10px gray;
+}
+.image6 img {
+    height: 350px;
+    object-fit: cover; 
+ }
+ .image6 span{
+    font-size: 20px;
+ }
+ .head4{
+    margin: 50px;
+    margin-left: 100px;
+    
+ }
+ .head4 h1{
+    color: cadetblue;
+ }
+ .head4 span{
+    font-size: 20px ;
+    font-weight: 700px;
+ }
+  .aa:hover { 
+box-shadow: 2px 2px 40px grey;
+
+ }
+ .aa{
+    border-radius: 10px;
+ }
+ 
+
+ /* @media screen and () 
+    
+ } */
